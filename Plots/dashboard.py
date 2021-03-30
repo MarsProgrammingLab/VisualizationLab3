@@ -78,12 +78,12 @@ app.layout = html.Div(children=[
             }
             ),
     html.Div('Web dashboard for Data Visualization using Python', style={'textAlign': 'center'}),
-    html.Div('Coronavirus COVID-19 Global Cases -  1/22/2020 to 3/17/2020', style={'textAlign': 'center'}),
+    html.Div('Olympics -  2016', style={'textAlign': 'center'}),
     html.Br(),
     html.Br(),
     html.Hr(style={'color': '#7FDBFF'}),
     html.H3('Interactive Bar chart', style={'color': '#df1e56'}),
-    html.Div('This bar chart represent the number of confirmed cases in the first 20 countries of selected continent.'),
+    html.Div('This bar chart represent the number of medals from the selected country.'),
     dcc.Graph(id='graph1'),
     html.Div('Please select a continent', style={'color': '#ef3e18', 'margin':'10px'}),
     dcc.Dropdown(
